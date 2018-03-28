@@ -17,127 +17,114 @@
             <!-- Header -->
             <header id="header">						
                 <nav class="links">
-                    <ul>
-                        <li><a href="#">About</a></li>
+                    <ul>                        
                         <li><a href="#">Articles</a></li>								
                         <li><a href="#">Artworks</a></li>								
+                        <li><a href="#">About</a></li>
                     </ul>
                 </nav>                
             </header>
 
-            <!-- Menu -->
-            <section id="menu">
-
-                <!-- Search -->
-                <section>
-                    <form class="search" method="get" action="#">
-                        <input type="text" name="query" placeholder="Search" />
-                    </form>
-                </section>
-
-                <!-- Main -->
-                <div id="main">
-
-                    <!-- Post -->
-                    <article class="post">
-                        <header>
-                            <div class="title">
-                                <h2><a href="#">Magna sed adipiscing</a></h2>
-                                <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
-                            </div>
-                            <div class="meta">
-                                <time class="published" datetime="2015-11-01">November 1, 2015</time>
-                                <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
-                            </div>
-                        </header>
-                        <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-                        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                        <footer>
-                            <ul class="actions">
-                                <li><a href="#" class="button big">Continue Reading</a></li>
-                            </ul>
-                            <ul class="stats">
-                                <li><a href="#">General</a></li>
-                                <li><a href="#" class="icon fa-heart">28</a></li>
-                                <li><a href="#" class="icon fa-comment">128</a></li>
-                            </ul>
-                        </footer>
-                    </article>
-
-                    <!-- Pagination -->
-                    <ul class="actions pagination">
-                        <li><a href="" class="disabled button big previous">Previous Page</a></li>
-                        <li><a href="#" class="button big next">Next Page</a></li>
-                    </ul>
-
-                </div>
-
-                <!-- Sidebar -->
-                <section id="sidebar">
-
-                    <!-- Intro -->
-                    <section id="intro">
-                        <a href="#" class="logo"><img src="images/logo.jpg" alt="" /></a>
-                        <header>
-                            <h2>Sergey Lebedev</h2>
-                            <p>Web development with high stamina</p>
-                        </header>
-                    </section>
-
-                    <!-- Mini Posts -->
-                    <section>
-                        <div class="mini-posts">
-
-                            <!-- Mini Post -->
-                            <article class="mini-post">
-                                <header>
-                                    <h3><a href="#">Vitae sed condimentum</a></h3>
-                                    <time class="published" datetime="2015-10-20">October 20, 2015</time>
-                                    <a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
-                                </header>
-                                <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-                            </article>
-
+            <!-- Main -->
+            <div id="main">
+                <!-- Post -->
+                <article class="post">
+                    <header>
+                        <div class="title">
+                            <h2><a href="facebook-url.html">Facebook API: how to get real image url from returned "fake" url</a></h2>
                         </div>
-                    </section>
-
-                    <!-- Posts List -->
-                    <section>
-                        <ul class="posts">
-                            <li>
-                                <article>
-                                    <header>
-                                        <h3><a href="#">Lorem ipsum fermentum ut nisl vitae</a></h3>
-                                        <time class="published" datetime="2015-10-20">October 20, 2015</time>
-                                    </header>
-                                    <a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-                                </article>
-                            </li>                            
-                        </ul>
-                    </section>
-
-                    <!-- About -->
-                    <section class="blurb">
-                        <h2>About</h2>
-                        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod amet placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at phasellus sed ultricies.</p>
+                        <div class="meta">
+                            <time class="published" datetime="2015-11-01">November 1, 2015</time>
+                            <a href="#" class="author"><span class="name">Sergey Lebedev</span><img src="images/avatar.jpg" alt="" /></a>
+                        </div>
+                    </header>
+                    <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>                    
+                    <p>When getting images info from Facebook API we usually get "fake" image url that points to a html page with the image and a caption.
+                    <br>How we can get its real url?</p>
+                    <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Learn More</a></li>
+                            <li><a href="facebook-url.html" class="button big">Continue Reading</a></li>
                         </ul>
-                    </section>
-
-                    <!-- Footer -->
-                    <section id="footer">
-                        <ul class="icons">
-                            <li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
-                            <li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-                            <li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-                            <li><a href="#" class="fa-rss"><span class="label">RSS</span></a></li>
-                            <li><a href="#" class="fa-envelope"><span class="label">Email</span></a></li>
+                        <ul class="stats">
+                            <li><a href="#">General</a></li>
+                            <li><a href="#" class="icon fa-heart">28</a></li>
+                            <li><a href="#" class="icon fa-comment">128</a></li>
                         </ul>
-                        <p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
-                    </section>
+                    </footer>
+                </article>
 
+                <!-- Pagination -->
+                <!--                <ul class="actions pagination">
+                                    <li><a href="" class="disabled button big previous">Previous Page</a></li>
+                                    <li><a href="#" class="button big next">Next Page</a></li>
+                                </ul>-->
+
+            </div>
+
+            <!-- Sidebar -->
+            <section id="sidebar">
+
+                <!-- Intro -->
+                <section id="intro">
+                    <a href="#" class="logo"><img src="images/logo.jpg" alt="" /></a>
+                    <header>
+                        <h2>Sergey Lebedev</h2>
+                        <p>Web development with high stamina</p>
+                    </header>
                 </section>
+
+                <!-- Mini Posts -->
+                <section>
+                    <div class="mini-posts">
+                        <!-- Mini Post -->
+                        <!--                        <article class="mini-post">
+                                                    <header>
+                                                        <h3><a href="#">Vitae sed condimentum</a></h3>
+                                                        <time class="published" datetime="2015-10-20">October 20, 2015</time>
+                                                        <a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+                                                    </header>
+                                                    <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+                                                </article>-->
+                    </div>
+                </section>
+
+                <!-- Posts List -->
+                <section>
+                    <!--                    <ul class="posts">
+                                            <li>
+                                                <article>
+                                                    <header>
+                                                        <h3><a href="#">Lorem ipsum fermentum ut nisl vitae</a></h3>
+                                                        <time class="published" datetime="2015-10-20">October 20, 2015</time>
+                                                    </header>
+                                                    <a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+                                                </article>
+                                            </li>                        
+                                        </ul>-->
+                </section>
+
+                <!-- About -->
+                <section class="blurb">
+                    <h2>About</h2>
+                    <p>I am a web developer</p>
+                    <ul class="actions">
+                        <!--<li><a href="#" class="button">Learn More</a></li>-->
+                    </ul>
+                </section>
+
+                <!-- Footer -->
+                <section id="footer">
+                    <!--                    <ul class="icons">
+                                            <li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+                                            <li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+                                            <li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+                                            <li><a href="#" class="fa-rss"><span class="label">RSS</span></a></li>
+                                            <li><a href="#" class="fa-envelope"><span class="label">Email</span></a></li>
+                                        </ul>-->
+                    <p class="copyright">&copy; Sergey Lebedev. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+                </section>
+
+            </section>
 
         </div>
 
