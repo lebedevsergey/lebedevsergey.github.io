@@ -3247,10 +3247,7 @@
 	#intro .logo {
 		border-bottom: 0;
 		display: inline-block;
-		margin: 0 0 1em 0;
-		overflow: hidden;
-		position: relative;
-		width: 4em;
+		position: relative;		
 	}
 
 		#intro .logo:before {
@@ -3259,12 +3256,10 @@
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
 			content: '';
-			display: block;
-			height: 100%;
+			display: block;		
 			left: 0;
 			position: absolute;
-			top: 0;
-			width: 100%;
+			top: 0;			
 		}
 
 		#intro .logo img {
