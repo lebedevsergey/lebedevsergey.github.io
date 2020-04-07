@@ -1,3 +1,5 @@
-/mysite/nbproject/private/
-/nbproject/private/
-/nbproject/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
