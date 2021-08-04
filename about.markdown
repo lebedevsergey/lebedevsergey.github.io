@@ -3,16 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+- 👋 Hi, I’m Sergey Lebedev
+- 👀 Interested in different kinds of programming including Golang, Python, Machine Learning  
+- 👀 Now work as a Fullstack Web-developer with PHP, Laravel, JavaScript and VueJS 
+- 💞️ Open for collaborations on open-source and commercial projects
+- 📫 You can reach me at:
+  - https://www.linkedin.com/in/sergei-lebedev-7a523a62/
+  - https://stackoverflow.com/users/7135046/sergeylebedev

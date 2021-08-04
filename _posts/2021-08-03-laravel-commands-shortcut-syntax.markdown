@@ -1,6 +1,6 @@
 ---
 layout: post
-description: The article discuss one very useful Laravel Artisan feature - commands shortcut syntax
+desc: The article discuss a very useful Laravel Artisan feature - commands shortcut syntax
 title:  "Laravel Artisan commands shortcut syntax"
 date:   2021-08-03 11:54:15 +0300
 categories: Laravel

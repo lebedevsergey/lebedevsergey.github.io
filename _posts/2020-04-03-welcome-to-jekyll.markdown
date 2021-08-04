@@ -1,6 +1,6 @@
 ---
 layout: post
-description: The article announce my scripts kit for Bitbucket Mercurial repositories migration to Git.
+desc: The article announce my scripts kit for Bitbucket Mercurial repositories migration to Git.
 title:  "Bitbucket challenge - how to convert your Bitbucket Mercurial repositories to Git"
 date:   2020-04-03 11:54:15 +0300
 categories: utils
